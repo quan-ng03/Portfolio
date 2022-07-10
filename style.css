@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Lulo Clean;
+}
+@font-face {
+  font-family: "Lulo Clean";
+  src: url("fonts/lulocleanttf.ttf");
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.1em;
+}
+@font-face {
+  font-family: "Avenir Light";
+  src: url("fonts/FontsFree-Net-Avenir-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.1em;
+}
+.br {
+  display: block;
+  margin-bottom: 0.5em;
+}
+.background {
+  background-image: url("pictures/Background.JPG");
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.welcome_sentence {
+  position: absolute;
+  height: 500px;
+  float: left;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+}
+.intro {
+  position: absolute;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  font-size: 31px;
+  top: 50%;
+  left: 17%;
+}
+.option_list button {
+  font-family: Lulo Clean;
+  font-size: 40px;
+  color: black;
+
+  position: relative;
+  background-color: #998b6f;
+  border: 10px solid black;
+  cursor: pointer;
+
+  top: 10%;
+  bottom: 10%;
+  left: 22.5vw;
+  height: 130px;
+  width: 55%;
+  display: block;
+}
+.option_list button:hover {
+  background-color: aliceblue;
+}
+.option_list {
+  background-color: #a3b8c2;
+  padding: 30px 0px;
+}
+.about_me {
+  background-color: grey;
+  width: 100%;
+  padding: 100px 0px;
+}
+.about_me img {
+  height: auto;
+  width: 450px;
+  object-position: 50% 50%;
+}
+.about_text {
+  width: 550px;
+  color: whitesmoke;
+  padding: 0px 10px;
+}
+.about_text ul {
+  list-style-position: outside;
+  list-style-type: disc;
+}
+.about_text li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  line-height: 2.4em;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

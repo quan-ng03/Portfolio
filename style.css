@@ -76,7 +76,7 @@
   position: relative;
   height: 800px;
   width: 100%;
-  padding: 100px 0px;
+  padding: 100px 20% 0px 20%;
 }
 .about_me img {
   height: auto;
@@ -85,7 +85,7 @@
 .about_text {
   width: 550px;
   color: whitesmoke;
-  padding: 0px 10px;
+  padding: 0px 100px;
 }
 .about_text ul {
   list-style-position: outside;
@@ -98,9 +98,10 @@
   line-height: 2.4em;
 }
 .main {
-  width: 1130px;
-  max-width: 100%;
-  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  min-width: 1200px;
+  margin: 0px 100px 0% 100px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -121,7 +122,7 @@
 }
 .b_content {
   height: 750px;
-  padding: 0% 0% 0% 10%;
+  padding: 0% 0% 0% 17%;
   min-width: max-content;
   display: flex;
   align-items: center top;
@@ -157,7 +158,7 @@
 }
 .b_p {
   width: 100%;
-  padding-left: 10%;
+  padding-left: 150px;
   line-height: 2em;
   font-size: 15px;
   font-family: Lulo Clean;

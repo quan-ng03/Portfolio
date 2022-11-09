@@ -9,9 +9,11 @@
       content="width=device-width, initial-scale=1, shrink-to-fit = no"
     />
     <link rel="stylesheet" href="/style.css" />
+    
+    
   </head>
   <body>
-    <div class="background"></div>
+    <div class="background"></div> <!-- front page-->
       <div class="welcome_sentence">
         <span class="intro">
           <h1>Hi, i'm quan nguyen</h1>
@@ -21,16 +23,20 @@
         
       </div>
     </div>
-    <div class="option_list">
+    <div class="option_list"> <!-- Menu-->
       <br>
-      <button href="#aboutme">About Me</button>
+      <a href="#about_me" title="" class="scroll-btn">
+      <button type="button">About Me</button>
+      </a>
       <br>
-      <button href="#biography">Resume</button>
+      <a href="#bio" title="" class="scroll-btn">
+      <button type="button">RESUME</button>
+      </a>
       <br>
       <button>Fun Facts</button>
       <br>
     </div>
-    <section id="aboutme" class = "about_me">
+    <section id="about_me" class = "about_me"> <!-- About Me-->
       <div class="main">
         <img src="/pictures/WorkRelated.JPG"/>
         <div class="about_text">
@@ -45,7 +51,7 @@
         </div>
       </div>
     </section>
-    <section id="biography" class="bio">
+    <section id="bio" class="bio"> <!-- Resume and my background-->
       <div class="b_main">
         <div class="b_heading">
           <h1 style="font-size: 45px;">Bio</h1>
@@ -56,7 +62,9 @@
             <img style="width: 260px;
             height: 300px;
             object-fit: cover;" src="/pictures/Profile.JPG"/>
+            <a href="file/quananhnguyen-resume.pdf" download>
             <button>RESUME</button>
+            </a>
           </div>
           <div class="b_p">
            <p style="font-family: sans-serif"> My name is Quan Anh Nguyen, originated from Ho Chi Minh City, Vietnam. Currently 19-year-old, I am pursuing my Bachelor of Science degree in Computer Science at Arizona State University. Being born in the fast-paced and innovative era, I found myself connected to technologies at an early age.
@@ -75,5 +83,7 @@
         
       </div>
     </section>
+
+    <script type = "text/javascript" src="script.js"></script>
   </body>
 </html>
